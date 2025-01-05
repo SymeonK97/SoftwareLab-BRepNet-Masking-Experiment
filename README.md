@@ -1,4 +1,4 @@
-# BRepNet Masking Modification Experiment
+# BRepNet Masking Experiment
 
 This repository is made for the purposes of the T.U.M course SoftwareLab 2024, part of the project "AI Supported automated feature Recognition". In the spirit of having a first contact and understanding a NN focused on feature recognition and with the goal of learning how SSL may be implementaed, the following modifications were made in the BRrepNet model file (brepnet.py). The modifications applied block masking to Xc (coedge feature matrix) and Xf (face features matrix). 
 
