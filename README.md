@@ -36,7 +36,7 @@ total_loss = segmentation_loss  + ssl_weight * mask_loss
 
 ## Outcome
 
-This altered version run stably and even produced slightly higher accuracy (~1.5%) and IoU in the first 10 epochs of training. After, 15 to 20 epochs this difference subsides. These changes are similar to dropout, but targeted to those 2 specific matrices, trying to encourage the NN to run on less detailed feature data. 
+This altered version run stably and even produced slightly higher accuracy (~1.5%) and IoU in the first 10 epochs of training. After, 15 to 20 epochs this difference subsides. This type of masking works similarly to dropout, but targeted to those 2 specific matrices, trying to encourage the NN to run on less detailed feature data. 
 
 ## Requirements
 
